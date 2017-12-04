@@ -36,7 +36,8 @@ Eric Chen
    Allows processing of multiple commands at once.  Although it could be integrated into one command
    with parse_args(), I decided to leave them separate just for modularity.
    
-   =================================================== */```
+   =================================================== */
+```
 
 * parse_args()
 
@@ -53,7 +54,8 @@ Eric Chen
    USE:
    Prepares the command line input for processing via execvp.
 
-   =================================================== */```
+   =================================================== */
+```
 
 * run_cmd()
 
@@ -71,7 +73,8 @@ Eric Chen
    Parses a single command and forks off a child to process it. Its looped usage in boot()
    will cause it to fork many times to perform these tasks.
 
-   =================================================== */```
+   =================================================== */
+```
 
 * boot()
 
@@ -92,7 +95,8 @@ Eric Chen
    It also parses command lines by semicolon and repeatedly runs these parsed commands
    with run_cmd().
 
-   =================================================== */```
+   =================================================== */
+```
 
 * main()
 
@@ -111,7 +115,8 @@ Eric Chen
    
    Well, that's about it.
 
-   =================================================== */```
+   =================================================== */
+```
 
 
 ### Mini-DevLog

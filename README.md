@@ -121,16 +121,27 @@ Eric Chen
 
 ### Mini-DevLog
 12-03-17	Removed gets() dependence for slightly uglier but safer input method.
+
 12-01-17	Added multi-command support.
+
 12-01-17	Transferred code from boot() into run_cmd() to prepare for multi-command support.
+
 12-01-17	Made function split_commands() to split commands up for parsing to prepare for multi-command support.
+
 12-01-17	Updated user interface.
+
 11-30-17	Added function headers.
+
 11-30-17	README!
+
 11-29-17	Debug.
+
 11-28-17	Debug.
+
 11-27-17	Added quick-exit. (Leaving command line empty)
+
 11-25-17	Transferred code from main() into boot() for loopability.
+
 11-25-17	Created files.
 
 
